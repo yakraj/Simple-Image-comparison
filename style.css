@@ -21,7 +21,8 @@ input::-webkit-slider-thumb{
   -webkit-appearance: none;
   width: 5px;
   height: 100vh;
-  background-color: #111
+  background-color: #111;
+  cursor: pointer;
 }
 .firstimage{
   position: absolute;
