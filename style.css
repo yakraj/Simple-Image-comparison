@@ -1,0 +1,35 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.compa{
+height: 100%;
+width: 100%;
+display: flex;
+background: url('https://cdn.pixabay.com/photo/2020/05/01/11/26/poppy-5116562_960_720.jpg') no-repeat;
+background-position: 0 center;
+-webkit-background-size: 100vw;
+position: relative;}
+input{
+  -webkit-appearance: none;
+  width: 100%;
+  background: none;
+  outline: none;
+  z-index: 10;
+}
+input::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  width: 5px;
+  height: 100vh;
+  background-color: #111
+}
+.firstimage{
+  position: absolute;
+  left: 0; 
+  width: 20%;
+  height: 100vh;
+  background: url('https://cdn.pixabay.com/photo/2020/02/05/09/57/spain-4820681_960_720.jpg') no-repeat;
+background-position: 0 center;
+-webkit-background-size: 100vw;
+  
+}
